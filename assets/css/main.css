@@ -6,6 +6,35 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.first-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.left-first{
+		width: 75%;
+}
+
+.headshot {
+	width: 250px;
+	height: 250px;
+	border-radius: 2px;
+	background-image: url('../../images/Chris_Lew_hires.jpeg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.img-links {
+	border-bottom: none;
+}
+.img-links:hover {
+	filter: brightness(150%);
+}
+.right-first{
+	margin-left: 20px;
+}
+
 
 /* Reset */
 
@@ -1093,6 +1122,18 @@
 	}
 
 	@media screen and (max-width: 736px) {
+		.first-flex {
+
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+		}
+
+		.left-first{
+				margin-bottom: 10px;
+		}
 
 		.row > * {
 			padding: 20px 0 0 20px;
@@ -2320,5 +2361,6 @@
 				.main > .content h3 {
 					font-size: 1.25em;
 				}
+
 
 	}
