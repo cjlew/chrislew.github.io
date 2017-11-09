@@ -35,6 +35,18 @@
 	margin-left: 20px;
 }
 
+.icons li {
+	font-size: 100px;
+	margin-top: 50px;
+}
+
+.redux-logo{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+	text-align: center;
+}
 
 /* Reset */
 
