@@ -206,7 +206,7 @@ width: 400px;
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	/*@media screen and (max-width: 1281px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -230,9 +230,9 @@ width: 400px;
 			width: 960px;
 		}
 
-	}
+	}*/
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1280px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -972,7 +972,7 @@ width: 400px;
 
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1280px) {
 
 		.row > * {
 			padding: 25px 0 0 25px;
@@ -2269,7 +2269,7 @@ width: 400px;
 
 /* Narrow */
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1280px) {
 
 		/* Basic */
 
